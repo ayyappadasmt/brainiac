@@ -5,6 +5,9 @@ import torchvision.models as models
 from PIL import Image
 import torch.nn as nn  
 
+
+st.set_page_config(layout="wide")  # Enables wide mode permanently
+
 # Define class labels
 class_labels = ["Glioma Tumor", "Meningioma Tumor", "No Tumor", "Pituitary Tumor"]
 
